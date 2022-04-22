@@ -1,5 +1,5 @@
 {
-  "name": "borun",
+  "name": "clear",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,9 +9,16 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@types/node": "^17.0.25",
+    "@types/react": "^18.0.6",
+    "ejs": "^3.1.7",
+    "express": "^4.17.3",
+    "firebase": "^9.6.11",
+    "firebase-admin": "^10.1.0",
     "next": "12.1.5",
     "react": "18.0.0",
-    "react-dom": "18.0.0"
+    "react-dom": "18.0.0",
+    "typescript": "^4.6.3"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.4",
@@ -19,5 +26,17 @@
     "eslint-config-next": "12.1.5",
     "postcss": "^8.4.12",
     "tailwindcss": "^3.0.24"
-  }
+  },
+  "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
+  "main": "next.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArthemisCOF/borun.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArthemisCOF/borun/issues"
+  },
+  "homepage": "https://github.com/ArthemisCOF/borun#readme"
 }
