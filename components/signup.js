@@ -1,4 +1,5 @@
 import React from 'react'
+import { FaUser } from 'react-icons'
 import { Form, Button, Card} from 'tailwindcss'
 export default function signup() {
   return (
