@@ -9,6 +9,6 @@ export const verifyIdToken = (token) => {
         })
     }
     return admin.auth().verifyIdToken(token).catch((error) => {
-        throw error
-    })
-}
+        throw error;
+    });
+};
